@@ -1,0 +1,38 @@
+.profile__container{
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.profile__title{
+  text-align: center;
+}
+
+.profile__field{
+  text-align: center;
+  padding: 10px;
+}
+
+.profile__label{
+  display: inline-block;
+  width: 40%;
+}
+
+.profile__value{
+  display: inline-block;
+  width: 40%;
+}
+
+.profile__avatar img{
+  max-width: 100%;
+}
+
+.profile__left-col{
+  float: left;
+  width: 70%;
+}
+
+.profile__right-col{
+  float: left;
+  width: 30%;
+}

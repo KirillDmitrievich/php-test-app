@@ -1,0 +1,56 @@
+<div class="registration__page">
+  <form method="post" action="/user/create" enctype="multipart/form-data">
+    <div class="registration__errors">%errors%</div>
+    <fieldset>
+      <label>%localize_first_name%</label>
+      <input validate="" required="true" required-message="%localize_required_message%" type="text" placeholder="%localize_placeholder_first_name%" name="first_name" id="first_name">
+    </fieldset>
+    <fieldset>
+      <label>%localize_last_name%</label>
+      <input validate="" required="true" required-message="%localize_required_message%" type="text" placeholder="%localize_placeholder_last_name%" name="last_name" id="last_name">
+    </fieldset>
+    <fieldset>
+      <label>%localize_password%</label>
+      <input error-message="%localize_passsword_error_message%" validate="password" required="true" required-message="%localize_required_message%" type="password" placeholder="%localize_placeholder_password%" name="password" id="password">
+    </fieldset>
+    <fieldset>
+      <label>%localize_password_confirmation%</label>
+      <input error-message="%localize_passsword_confirmation_error_message%" validate="password_confirmation" required="true" required-message="%localize_required_message%" type="password" placeholder="%localize_placeholder_password_confirmation%" name="password_confirmation" id="password_confirmation">
+    </fieldset>
+    <fieldset>
+      <label>%localize_email%</label>
+      <input error-message="%localize_email_error_message%" validate="email" type="email" required="true" required-message="%localize_required_message%" placeholder="%localize_placeholder_email%" name="email" id="email">
+    </fieldset>
+    <fieldset>
+      <label>%localize_country%</label>
+      <input  validate="" type="text" placeholder="%localize_placeholder_country%" name="country" id="country">
+    </fieldset>
+    <fieldset>
+      <label>%localize_city%</label>
+      <input  validate="" type="text" placeholder="%localize_placeholder_city%" name="city" id="city">
+    </fieldset>
+    <fieldset>
+      <label>%localize_street%</label>
+      <input  validate="" type="text" placeholder="%localize_placeholder_street%" name="street" id="street">
+    </fieldset>
+    <fieldset>
+      <label>%localize_house%</label>
+      <input  validate="" type="text" placeholder="%localize_placeholder_house%" name="house" id="house">
+    </fieldset>
+    <fieldset>
+      <label>%localize_flat%</label>
+      <input  validate="" type="text" placeholder="%localize_placeholder_flat%" name="flat" id="flat">
+    </fieldset>
+    <fieldset>
+      <label>%localize_phone%</label>
+      <input error-message="%localize_phone_error_message%" validate="phone" required="true" required-message="%localize_required_message%" type="text" placeholder="%localize_placeholder_phone%" name="phone" id="phone">
+    </fieldset>
+    <fieldset>
+      <label>%localize_avatar%</label>
+      <input type="file" name="avatar" id="avatar">
+    </fieldset>
+    <fieldset>
+      <input type="submit" value="send" id='reg'>
+    </fieldset>
+  </form>
+</div>

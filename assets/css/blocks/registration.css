@@ -1,0 +1,30 @@
+.registration__page form{
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.registration__page fieldset{
+  border: none;
+}
+
+.registration__page label{
+  width: 45%;
+  font-weight: bold;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+.registration__page input{
+  width: 45%;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+.registration__page fieldset.invalid{
+  border-radius: 4px;
+  border: 2px solid #dd0000;
+  font-weight: bold;
+}
